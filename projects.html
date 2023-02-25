@@ -21,19 +21,28 @@
 
 <!-- Barra de navegação onde tem os hyperlinks (obrigado Edu) -->
 
-<nav><a href="./index.html" title="Página de início">Porta de Entrada</a> <a href="./projects.html" title="Página sobre projetos do cauagames">Projetos</a> <a href="./aboutme.html" title="Página sobre o cauagames">Sobre Mim</a></nav>
+<nav><a href="./index.html" title="Página de início">Porta de Entrada</a> <a href="./projects.html" title="Página sobre projetos do cauagames">Projetos</a> <a href="./aboutme.html" title="Página sobre o cauagames">Sobre Mim</a> <a href="https://buymeacoffee.com/cauagames" class="new" title="Ajude o cauagames!">Ajude o cauagames</a></nav>
 
 <!-- Começo da área escrita -->
 
-<body>
+<body id="grad">
   <h1>Meus projetos</h1>
     <style>
+
+        @keyframes colour {
+          0%   {color: red;}
+          25%  {color: yellow;}
+          50%  {color: rgb(52, 139, 238);}
+          75% {color: green;}
+          100%   {color: red;}
+        }
+
+        #grad {
+      background-image: linear-gradient(rgb(15, 24, 110), rgb(85, 42, 124));
+    }
+
       body {
           background-color: rgb(4, 8, 27);
-          background-image: url(./images/background.jpg);
-          background-position: center;
-          background-size: 300%;
-          background-repeat: no-repeat;
         }
 
         nav {
@@ -76,6 +85,17 @@
         margin-right: auto;
         width: 50%;
       }
+
+      .new {
+      color:green;
+      text-decoration-line: none;
+      font-size: 18px;
+      font-weight: normal;
+      margin-right: 20px;
+      animation-name: colour;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+  }
 
         p {
           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -161,6 +181,6 @@
 
   <!-- Começo do footer -->
 
-  <footer><h3><br><br>Este site foi feito com HTML e CSS estilo <i>bare bones</i> então coisas podem quebrar em um nível absurdo! <br> Resoluções acima de 4K quebra o site</h3></footer>
+  <footer><h3><br><br>Este site foi feito com HTML e CSS estilo <i>bare bones</i> então coisas podem quebrar em um nível absurdo!</h3></footer>
 </body>
 </html> 

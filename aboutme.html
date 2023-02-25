@@ -18,19 +18,62 @@
   
   <meta name="description" content="Informações sobre o cauagames feitas usando a rede WWW de '91!">
   <meta name="author" content="o cauagames">
-<body>
+<body id="grad">
 
   <!-- Barra de navegação onde tem os hyperlinks (obrigado Edu) -->
 
-  <nav><a href="./index.html" title="Página de início">Porta de Entrada</a> <a href="./projects.html" title="Página sobre projetos do cauagames">Projetos</a> <a href="./aboutme.html" title="Página sobre o cauagames">Sobre Mim</a></nav>
+  <nav><a href="./index.html" title="Página de início">Porta de Entrada</a> <a href="./projects.html" title="Página sobre projetos do cauagames">Projetos</a> <a href="./aboutme.html" title="Página sobre o cauagames">Sobre Mim</a> <a href="https://buymeacoffee.com/cauagames" class="newermized" title="Ajude o cauagames!">Ajude o cauagames</a></nav>
 
 <style>
+
+  @keyframes colour {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: rgb(52, 139, 238);}
+    75% {color: green;}
+    100%   {color: red;}
+  }
+
+  @keyframes coloured {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: rgb(52, 139, 238);}
+    75% {color: green;}
+    100%   {color: red;}
+  }
+
+  .new {
+      color:green;
+      text-decoration-line: none;
+      font-size: 18px;
+      font-weight: normal;
+      margin-right: 20px;
+      animation-name: colour;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+  }
+
+  .newermized {
+      color:green;
+      text-decoration-line: none;
+      font-size: 18px;
+      font-weight: normal;
+      margin-right: 20px;
+      animation-name: coloured;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+  }
+
+      #grad {
+      background-image: linear-gradient(rgb(15, 24, 110), rgb(85, 42, 124));
+    }
+
     body {
         background-color: rgb(4, 8, 27);
-    background-image: url(./images/background.jpg);
-    background-position: center;
-    background-size: 300%;
-    background-repeat: no-repeat;
     }
 
     nav {
@@ -70,10 +113,7 @@
 
   img {
       opacity: 1;
-      border-radius: 160px;
-      border-style: solid;
-      border-color: white;
-      border-width: 5px;
+
   }
 
   html {
@@ -90,16 +130,36 @@
   margin-right: auto;
   width: 50%;
 }
+
+.centermized {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 160px;
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+    }
+
+.imagery {
+  border-radius: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
     
 </style>
 <!-- Começo da área escrita -->
 
 <h1>Sobre mim</h1>
-<img src="https://cdn.discordapp.com/avatars/539814645918203905/cc0b3e6d12b689c6825a3df42f10d5f5.webp?size=2048" alt="cauagames's profile picture" style="width:160px;height:160px;" class="center">
-<p>Eu tenho 14 anos e desde meus 4 anos eu tive um computador! <i>(Nem dá pra acreditar que tive um computador há 10 anos atrás)</i> e depois disso eu adorei mexer com eletrônicos e aparelhos tecnológicos como celulares, notebooks, praticamente tudo que envolvia tecnologia! <br><br> Recentemente decidi criar coragem e mergulhar no mundo da programação <i>(se bem que HTML e CSS nem linguagem de programação é)</i> e aprendi um pouco de JavaScript e agora eu estou desenvolvendo esse pequeno site/portfólio <I>(?)</I> com um pouco de ajuda dos meus amigos! <br><br> Eu uso um computador da época da queda do império Romano e é com ele que eu faço minhas coisas como editar no Photoshop, programar e jogar! Ele completou 10 anos em janeiro e desde 2013 eu tenho ele!</p>
+<img src="https://cdn.discordapp.com/avatars/539814645918203905/cc0b3e6d12b689c6825a3df42f10d5f5.webp?size=2048" alt="cauagames's profile picture" style="width:160px;height:160px;" class="centermized">
+<p>Eu tenho 14 anos e desde meus 4 anos eu tive um computador! <i>(Nem dá pra acreditar que tive um computador há 10 anos atrás)</i> e depois disso eu adorei mexer com eletrônicos e aparelhos tecnológicos como celulares, notebooks, praticamente tudo que envolvia tecnologia! <br><br> Recentemente decidi criar coragem e mergulhar no mundo da programação <i>(se bem que HTML e CSS nem linguagem de programação é)</i> e aprendi um pouco de JavaScript e agora eu estou desenvolvendo esse pequeno site/portfólio <I>(?)</I> com um pouco de ajuda dos meus amigos! <br><br> Eu uso um computador da época da queda do império Romano e é com ele que eu faço minhas coisas como editar no Photoshop, programar e jogar! Ele completou 10 anos em janeiro e desde 2013 eu tenho ele! <br><br><br><br> Sabia que agora você pode doar dinheiro para o cauagames? Isso mesmo, agora você pode me ajudar a conseguir o meu computador dos sonhos! <br><br> <a href="https://buymeacoffee.com/cauagames" class="new" title="Ajude o cauagames!">Clique aqui e venha me ajudar!</a></p>
+<img src="./images/buyacoffee.png" style="width:1100px;height:760px;" class="imagery">
 
 <!-- Começo do footer -->
 
-<footer><h3><br><br>Este site foi feito com HTML e CSS estilo <i>bare bones</i> então coisas podem quebrar em um nível absurdo! <br> Resoluções acima de 4K quebra o site</h3></footer>
+<footer><h3><br><br>Este site foi feito com HTML e CSS estilo <i>bare bones</i> então coisas podem quebrar em um nível absurdo!</h3></footer>
 </body>
 </html> 
