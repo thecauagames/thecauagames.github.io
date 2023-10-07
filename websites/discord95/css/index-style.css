@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+
+body {
+    background-color: rgb(35, 39, 42);
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'Public Sans', sans-serif;
+    color: white;
+}
+
+.logotype {
+    display: block;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logotype {
+    display: block;
+    margin-top: 6px;
+    padding-right: 6px;
+    float: left;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+footer {
+    padding: 12px;
+    background-color: rgb(44, 47, 51);
+}
+
+#main-page {
+    color: #5865F2;
+}
+
+::-webkit-scrollbar {
+    width: 18px;
+}
+
+::-webkit-scrollbar-track {
+    margin: 12px;
+    background: transparent;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: rgb(20, 22, 22);
+    border-radius: 30px;
+    border-style: solid;
+    border-color: rgb(35, 39, 42);
+    border-width: 3px;
+}
