@@ -18,6 +18,7 @@ Searcherook é um buscador fictício cujo o nome é um trocadilho ao meme recorr
 > Rook's in the corner, plotting world domination
 
 Você consegue sim pesquisar algo, mas eu não recomendaria usar como um buscador principal para ser sincero.
+Se eu soubesse mexer com PHP, eu tentaria, como não sei, é melhor deixar o Google como relay.
 
 ### O que acontece se eu pesquisar algo no Searcherook?
 
@@ -29,6 +30,8 @@ Ele irá te redirecionar a página do Google com as coisas que você escreveu!
 
 Ah, Discord! Amamos usar o Discord! Mas, e se ele também estivesse em sistemas operacionais legados?
 Essa era a ideia do discord95 (Discord95), trazer o mensageiro VoIP mais utilizado para sistemas legados!
+
+Se eu soubesse programar, eu tentaria fazê-lo, mas como não sei..
 
 ## Woorldy
 
