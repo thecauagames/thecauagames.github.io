@@ -40,7 +40,7 @@ Se eu soubesse programar, eu tentaria fazê-lo, mas como não sei..
 Quem nunca quis ir para os anos 90 não é mesmo?? Ninguém ai? Esperava mais.
 Woorldy traz 2 websites da época dos anos 90, sendo eles Jeri! e eVei!
 
-![Logo da Jeri!, o primeiro e único buscador que Jeri! resultados!](https://github.com/thecauagames/thecauagames.github.io/blob/main/websites/Woorldy/images/jeri/jeri-logo.png?raw=true) ![Logo do eVei, nada é novo, eVei!](https://github.com/thecauagames/thecauagames.github.io/blob/main/websites/Woorldy/images/evei-favicon.png?raw=true)
+![Logo da Jeri!, o primeiro e único buscador que Jeri! resultados!](https://github.com/thecauagames/thecauagames.github.io/blob/principal/pages/theprojectgames/Woorldy/images/jeri/jeri-logo.png?raw=true) ![Logo do eVei, nada é novo, eVei!](https://github.com/thecauagames/thecauagames.github.io/blob/principal/pages/theprojectgames/Woorldy/images/evei/evei-logo.png?raw=true)
 
 E sim, você consegue buscar coisas no Jeri!, e esse eu até recomendo se você tiver algum sistema legado que tenha um navegador que suporta HTTPS! O Jeri! usa o [FrogFind](http://frogfind.com) e manda suas pesquisas pra lá.
 
