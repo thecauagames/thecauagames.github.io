@@ -1,0 +1,39 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+html {
+    background-color: #E6ECF1; 
+}
+
+body {
+    border-left: 1px solid #adadad;
+    border-right: 1px solid #adadad;
+}
+
+.navbar li a {
+    color: white;
+}
+
+#avatar-imaging::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#avatar-imaging {
+    border: 4px;
+    border-color: #adadad;
+    border-style: double;
+    height: 128px; 
+    float: left; 
+    margin-left: 24px;
+    margin-right: 24px;
+    background-color: white;
+}
+
+.imaging-banner {
+    position: relative; bottom: 128px;
+}
+
+#imaging-banner {
+    border-bottom: 40px solid white;
+    border-color: white;
+}

@@ -1,0 +1,81 @@
+[data-theme="dark"] {
+    --color-bg: rgb(19, 16, 24);
+    --color-bg-ter: rgb(8, 7, 10);
+    --color-text: rgb(246, 242, 255);
+    --color-ht: rgb(124, 72, 255);
+    --color-hover: rgb(107, 48, 255);
+}
+
+html {
+    background-color: var(--color-bg);
+}
+
+p, li, a, dd {
+    font-family: 'Tahoma', sans-serif;
+    color: var(--color-text);
+}
+
+a {
+    text-decoration-line: none;
+}
+
+dd a {
+    color: var(--color-ht);
+    text-decoration-line: none;
+}
+
+#logo {
+    padding: 15px;
+    filter: invert(100%);
+}
+
+h1 {
+    font-family: 'Tahoma', sans-serif;
+    color: var(--color-ht);
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: block;
+    width: 800px;
+    margin: auto;
+}
+
+#content h1, p {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: 24px;
+}
+
+.footer {
+    margin-top: 50px;
+    border-top: 2px solid var(--color-ht);
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    margin: 12px;
+    background: transparent;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: var(--color-bg-ter);
+    border-radius: 30px;
+    border-style: solid;
+    border-color: var(--color-bg);
+    border-width: 2px;
+}

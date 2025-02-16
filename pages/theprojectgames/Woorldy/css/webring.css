@@ -1,0 +1,39 @@
+.webring {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+#logo {
+    width: fit-content;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+#main {
+    width: fit-content;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+#websites {
+    width: fit-content;
+    display: table;
+    margin: auto;
+    text-align: center;
+}
+
+
+p {
+    text-align: center;
+}
+
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+  }

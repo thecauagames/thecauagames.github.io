@@ -1,0 +1,83 @@
+[data-theme="EZColor"] {
+    --color-bg: rgb(240, 235, 250);
+    --color-secondary: rgb(224, 212, 245);
+    --color-hover: rgb(179, 160, 226);
+}
+
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box; 
+}
+
+.navbar {
+    padding: 16px;
+    background-color: var(--color-secondary);
+}
+
+a, p, h1, h2, h3 {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+li {
+    float: left;
+    transition: background-color 0s;
+    padding: 8px;
+}
+
+li a {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+  }
+
+.main {
+    margin: 12px;
+}
+
+li:hover {
+    background-color: var(--color-hover);
+}
+
+.footer {
+    padding: 16px;
+    background-color: var(--color-secondary);
+    text-align: center;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+}
+
+.main::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#cover {
+    height: 128px; 
+    float: left;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+
+body {
+    background-color: var(--color-bg);
+    width: 800px;
+    height: 100%;
+    margin: auto;
+}

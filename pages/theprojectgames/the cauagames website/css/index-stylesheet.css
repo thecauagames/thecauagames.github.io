@@ -1,0 +1,105 @@
+  #grad {
+        background-image: linear-gradient(rgb(15, 24, 110), rgb(47, 42, 124));
+      }
+  
+   body {
+      background-color: rgb(4, 8, 27);
+    }
+  
+    nav {
+        text-align: right;
+        font-family: 'Familjen Grotesk', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  
+    .new {
+        color:green;
+        text-decoration-line: none;
+        font-size: 18px;
+        font-weight: normal;
+        margin-right: 20px;
+        animation-name: colour;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+  
+    a {
+        color:white;
+        text-decoration-line: none;
+        font-size: 18px;
+        font-weight: bold;
+        margin-right: 20px;
+    }
+  
+    h1 {
+      color: white;
+      text-align: center;
+      font-family: 'Space Grotesk', sans-serif;
+    }
+  
+    h4 {
+      color: white;
+      text-align: center;
+      font-family: 'Familjen Grotesk', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  
+    h3 {
+      color: white;
+      text-align: center;
+      font-family: 'Space Grotesk', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    h3.name {
+        color: white;
+        text-align: center;
+        font-family: 'Space Grotesk', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 32px;
+        text-shadow: 0px 0px 8px #000000;
+      }
+
+    h3.footer {
+        color: white;
+        text-align: center;
+        font-family: 'Space Grotesk', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: normal;
+      }
+    
+    .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    box-shadow: 0px 0px 8px #000000;
+    }
+  
+    p {
+      font-family: 'Familjen Grotesk', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      font-size: 20px;
+      color: white;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .normal {
+        font-family: 'Familjen Grotesk', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: normal;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+  
+    html {
+        height: 100;
+    }
+  
+    img {
+        opacity: 1;
+        border-radius: 160px;
+        border-style: solid;
+        border-color: white;
+        border-width: 5px;
+    }  

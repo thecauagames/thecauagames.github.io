@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@500&display=swap');
+
+html {
+    background-color: rgb(25, 25, 34);
+}
+
+a {
+    text-decoration-line: none;
+}
+
+p, input, h1 {
+    font-family: 'Sarabun', sans-serif;
+}
+
+.main {
+    margin-top: 60px;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+}
+
+.text {
+    display: block;
+    margin: auto;
+    width: 36vw;
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(36, 36, 53);
+    border-radius: 30px;
+    border: none;
+    color: white;
+    transition: background-color 100ms;
+}
+
+.text:hover {
+    background-color: rgb(44, 44, 82);
+}
+
+.text:focus {
+    background-color: rgb(62, 62, 122);
+}
+
+nav div img {
+    transition: filter 100ms;
+}
+
+nav div img:hover {
+    filter: brightness(200%);
+}
+
+input {
+    color: white;
+}
+
+#sb {
+    margin: 10px;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(36, 36, 53);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    transition: background-color 100ms;
+    cursor: pointer;
+}
+
+#sb:hover {
+    background-color: rgb(62, 62, 122);
+}
+
+.buttons {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+#main {
+    margin-top: 20px;
+}
